@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>MrChimick.CattleGate</packageId>
+	<name>Cattle Gate</name>
+	<author>mr_chimick</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+    <description><![CDATA[The mod adds a new type of door, a cattle gate. This cannot be opened by any animal (or wild man), however anything else can open it.]]>
+    </description>
+</ModMetaData>

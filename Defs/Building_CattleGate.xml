@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="DoorBase">
+        <defName>CattleGate</defName>
+        <label>cattle gate</label>
+        <description>Divides rooms. Always traversable for non-animals, but animals cannot cross unless it is opened for them.</description>
+        <thingClass>CattleGate.Building_CattleGate</thingClass>
+        <statBases>
+            <WorkToBuild>850</WorkToBuild>
+        </statBases>
+        <graphicData>
+            <texPath>Things/Building/Door/CattleGate_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconPath>Things/Building/Door/CattleGate_MenuIcon</uiIconPath>
+        <costStuffCount>25</costStuffCount>
+        <designationHotKey>Misc6</designationHotKey>
+        <blockLight>false</blockLight>
+        <building>
+            <blueprintGraphicData>
+                <texPath>Things/Building/Door/CattleGate_Blueprint</texPath>
+            </blueprintGraphicData>
+        </building>
+    </ThingDef>
+</Defs>
